@@ -1,0 +1,41 @@
+{
+  "name": "gitsum",
+  "version": "1.0.0",
+  "description": "Beautiful git repository summaries, statistics, and changelogs",
+  "main": "dist/index.js",
+  "bin": {
+    "gitsum": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "ts-node src/index.ts",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "git",
+    "cli",
+    "summary",
+    "statistics",
+    "changelog",
+    "developer-tools"
+  ],
+  "author": "Deepankar Rawat <dprrwt>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dprrwt/gitsum"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^11.1.0",
+    "simple-git": "^3.22.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "typescript": "^5.3.0",
+    "ts-node": "^10.9.2"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
