@@ -1,26 +1,29 @@
-# gitsum
+# git-glance
 
 > Beautiful git repository summaries, statistics, and changelogs
 
-[![npm version](https://img.shields.io/npm/v/gitsum.svg)](https://www.npmjs.com/package/gitsum)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Installation
 
 ```bash
-npm install -g gitsum
+# From npm (coming soon)
+npm install -g git-glance
+
+# From GitHub
+npm install -g github:dprrwt/git-glance
 ```
 
 ## Usage
 
-Run `gitsum` in any git repository:
+Run `git-glance` in any git repository:
 
 ### Summary (default)
 
 ```bash
-gitsum
+git-glance
 # or
-gitsum summary
+git-glance summary
 ```
 
 Shows:
@@ -32,8 +35,8 @@ Shows:
 ### Statistics
 
 ```bash
-gitsum stats
-gitsum stats --limit 100  # Analyze last 100 commits only
+git-glance stats
+git-glance stats --limit 100  # Analyze last 100 commits only
 ```
 
 Shows detailed commit statistics:
@@ -45,11 +48,11 @@ Shows detailed commit statistics:
 ### Changelog
 
 ```bash
-gitsum changelog
-gitsum log                        # Alias
-gitsum log --since "1 week ago"   # Since specific date
-gitsum log --count 50             # Last 50 commits
-gitsum log --markdown             # Output as markdown
+git-glance changelog
+git-glance log                        # Alias
+git-glance log --since "1 week ago"   # Since specific date
+git-glance log --count 50             # Last 50 commits
+git-glance log --markdown             # Output as markdown
 ```
 
 Generates a formatted changelog grouped by date.
@@ -83,7 +86,7 @@ Generates a formatted changelog grouped by date.
 ### Markdown Changelog
 
 ```bash
-gitsum log --since "last week" --markdown > CHANGELOG.md
+git-glance log --since "last week" --markdown > CHANGELOG.md
 ```
 
 ## License

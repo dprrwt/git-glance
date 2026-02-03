@@ -8,7 +8,7 @@ import { changelog } from './commands/changelog';
 const program = new Command();
 
 program
-  .name('gitsum')
+  .name('git-glance')
   .description('Beautiful git repository summaries, statistics, and changelogs')
   .version('1.0.0');
 
