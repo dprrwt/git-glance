@@ -2,16 +2,19 @@
 
 > Beautiful git repository summaries, statistics, and changelogs
 
+[![npm version](https://img.shields.io/npm/v/git-glance.svg)](https://www.npmjs.com/package/git-glance)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Installation
 
 ```bash
-# From npm (coming soon)
 npm install -g git-glance
+```
 
-# From GitHub
-npm install -g github:dprrwt/git-glance
+Or use directly:
+
+```bash
+npx git-glance
 ```
 
 ## Usage
