@@ -1,6 +1,6 @@
 {
   "name": "git-glance",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Beautiful git repository summaries, statistics, and changelogs",
   "main": "dist/index.js",
   "bin": {
